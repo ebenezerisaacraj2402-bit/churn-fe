@@ -17,12 +17,12 @@ const ChurnForm = ({ setResult }) => {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {zz
     e.preventDefault();
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://churn-be-xo7e.onrender.com/predict",
         formData
       );
 
