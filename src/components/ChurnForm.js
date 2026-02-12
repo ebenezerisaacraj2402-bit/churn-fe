@@ -17,7 +17,7 @@ const ChurnForm = ({ setResult }) => {
     });
   };
 
-  const handleSubmit = async (e) => {zz
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
